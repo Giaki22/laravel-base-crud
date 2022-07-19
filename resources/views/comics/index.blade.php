@@ -12,7 +12,8 @@
                 <img src="{{$comic->thumb}}" alt="">
                 <h2>{{$comic->title}}</h2>
                 <p>{{$comic->description}}</p>
-                <h4>{{$comic->price}}</h4>
+                <h4>{{$comic->price}} $</h4>
+                <hr>
             </li>
         @endforeach
     </ul>

@@ -13,4 +13,5 @@
     <h4>{{$comic->price}} $</h4>
     <hr>
     <a href="{{route('comics.index')}}">Go Back Home</a>
+    <a href="{{route('comics.edit', $comic->id)}}">MODIFICA</a>
 @endsection
